@@ -15,17 +15,25 @@
 
 // 3. How many operators do we have in JS?
 // Ans:- There are various types of JavaScript operators.
-//      Arithmetic Operators
-//      Assignment Operators
-//      Comparison Operators
-//      Logical Operators
-//      Bitwise Operators
-//      Ternary Operators
-//      Comma Operators
-//      Unary Operators
-//      Relational Operators
-//      BigInt Operators
-//      String Operators
+
+// 1-Arithmetic Operators: Perform mathematical calculations like addition, subtraction, multiplication, division, etc. (+, -, *, /, %, ++, --)
+
+// 2-Assignment Operators: Assign values to variables (=, +=, -=, *=, /=, %=)
+
+// 3-Comparison Operators: Compare values and return true or false (==, ===, !=, !==, >, <, >=, <=)
+
+// 4-Logical Operators: Perform logical operations (&&, ||, !)
+
+// 5-Bitwise Operators: Perform operations on binary representations of numbers (&, |, ^, ~, <<, >>, >>>)
+
+// 6-Unary Operators: Operate on a single operand (+, -, ++, --, !)
+
+// 7-Conditional (Ternary) Operator: A shorthand for an if-else statement (condition ? exprIfTrue : exprIfFalse)
+
+// 8-String Operators: Concatenate strings (+)
+
+// These operators allow you to perform different tasks like math, comparisons, logical operations, and more within JavaScript code.
+
 
 // 4. What is use of parseInt in js?
 // Ans:- It is converted to the value in number or Integer.
