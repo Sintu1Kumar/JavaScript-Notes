@@ -1,80 +1,50 @@
-let text = document.getElementById('demo');
-let text1 = document.getElementById('demo1');
+// console.log("Arrays Topic");
 
-// for(init; condition; inc/dec);
+// Array:- collection of data in a single unit is called as array.
+// Array index start from with 0;
 
-// Ques:- check the number is prime number;
-// let num = Number(prompt("Enter the number"));
-// let flag = false;
-
-// for(i=2;i<num;i++){
-//     if(num%i==0){
-//         flag = true;
-//     }
+// let studentNames = ["Sintu", "Sohan", "Mohit", "Ali"];
+// for loop
+// for(let i=0; i<studentNames.length; i++){
+//     console.log(studentNames[i]);
 // }
 
-// if(flag == true){
-//     console.log(num +" is not a prime number")
-// }
-// else{
-//     console.log(num +" is a prime number")
+// for of loop
+// for(let ele of studentNames){
+//     ele = ele + " Kumar" 
+//     console.log(ele);
 // }
 
 
-//  Fibonacci series
-// let num = Number(prompt("Enter the Number"));
-// let a = 0;
-// let b = 1;
-// let result;
-// console.log(a);
-// console.log(b);
-// for (i = 3; i < num; i++) {
-//     result = a + b;
-//     // console.log(result);
-//     document.getElementById('demo').innerHTML += result + "<br/>";
-//     a = b;
-//     b = result;
-// };
+console.log("Object Topic");
+// Different:- array key is this fixed(0,1,2) but object key diffened by the user.
 
+let obj = {Name:"Sintu Kumar", RollNumber:1, PhoneNumber:9540317425, Marks:[40, 50, 60, 70]};
+// {Hindi:45, Math:65, Sanskrit:85, Science:80}
 
-// Calculator :-
-// by using do while loop:-
-// let Choice;
-// do{
-// let num1 = Number(prompt("Enter First Number"));
-// let symble = prompt("Enter the Symble:- +, -, *, /");
-// let num2 = Number(prompt("Enter Second Number"));
-// switch(symble){
-//     case '+': alert(num1 + num2);
-//             break;
-//     case '-': alert(num1 - num2);
-//             break;
-//     case '*': alert(num1 * num2);
-//             break;
-//     case '/': alert(num1 / num2);
-//             break;
-//     default : alert("Invalid Choice")
-// }
-//     Choice = prompt("Enter 1 for continue")
-// }
-// while(Choice == '1'){
-//     text.innerHTML = ("Okey this is it");
+// for in loop
+// for(let key in obj){
+//     console.log(obj[key]);    
 // }
 
-// By using for loop:-
-// for (let choice = '1'; choice == '1'; choice = prompt('Enter 1 to continue')) {
-    let num1 = Number(prompt("Enter First Number"));
-    let symble = prompt("Enter the Symble:- +, -, *, /");
-    let num2 = Number(prompt("Enter Second Number"));
-    switch (symble) {
-        case '+': alert(num1 + num2);
-            break;
-        case '-': alert(num1 - num2);
-            break;
-        case '*': alert(num1 * num2);
-            break;
-        case '/': alert(num1 / num2);
-            break;
-        default: alert("Invalid Choice")
-    };
-// };
+// for of loop
+// let Total = 0;
+// for(let Marks of obj.Marks){
+//     Total = Total + Marks;
+// }
+// console.log(obj.Name + " has got "+Total +" Marks")
+
+// for loop
+// let sum = 0;
+// for(let i=0; i<obj.Marks.length; i++){
+//     sum += obj.Marks[i];
+// }
+// console.log(obj.Name + " has got "+sum +" Marks")
+// console.log(obj.Marks)
+
+// for in loop
+let sum = 0;
+for (let val in obj.Marks){
+    sum = sum + obj.Marks[val];
+}
+console.log(obj.Name + " has got "+sum +" Marks")
