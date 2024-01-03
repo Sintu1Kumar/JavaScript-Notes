@@ -47,4 +47,4 @@ let sum = 0;
 for (let val in obj.Marks){
     sum = sum + obj.Marks[val];
 }
-console.log(obj.Name + " has got "+sum +" Marks")
+console.log(obj.Name + " has got "+sum +" Marks");
