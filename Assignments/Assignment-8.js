@@ -9,7 +9,6 @@
 //     }
 // }
 
-
 // Q2. Write a JS code to print a pattern using for loop
 // 1
 // 1 2
@@ -30,7 +29,6 @@
 // }
 // console.log(str);
 
-
 // Q3. Write a JS code to find the largest number in an array
 // let arr2 = [2, 45, 3, 67, 34, 567, 34, 345, 123];
 // let max = -1;
@@ -40,7 +38,6 @@
 //     }
 // }
 // console.log(max);
-
 
 // Q4. Write a JS code to find duplicate values in a given array
 // let arr3 = [4, 2, 34, 4, 1, 12, 1, 4];
@@ -52,8 +49,23 @@
 //   }
 // }
 
-
 // Q5. Write a JS code to print a 2D array
-// arr = [[1, 2],
-//        [3, 4],
-//        [5, 6]];
+let arr4 = [
+  [1, 2],
+  [3, 4],
+  [5, 6],
+];
+
+let num = "[";
+for (let i = 0; i < arr4.length; i++) {
+  (i < 1) ? (num += "[") : (num += " [");
+  for (let j = 0; j < arr4[i].length; j++) {
+    num += arr4[i][j] + " ";
+  }
+  if (i != arr4.length - 1) {
+    num += "]" + "\n";
+  } else {
+    num += "]]";
+  }
+}
+console.log(num);

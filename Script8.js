@@ -51,7 +51,7 @@ while(num!=0){
     reverse = reverse*10+digit;
     num =Math.floor(num/10)
 }
-console.log(rev)
+console.log(reverse);
 
 // let reverse = str1.reverse();
 // reverse = reverse.join("")
