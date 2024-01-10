@@ -9,30 +9,31 @@
 //       *
 
 
-// for(let i = 0; i<5; i++){
-//     let str = "";
+for(let i = 0; i<5; i++){
+    let str = "";
 
-//     for(let j = 1; j<=4-i; j++){
-//         str = str + " ";
-//     }
+    for(let j = 1; j<=4-i; j++){
+        str = str + " ";
+    }
 
-//     for(let k=0; k<=i;  k++){
-//         str = str + " *";
-//     }
-//     console.log(str);
+    for(let k=0; k<=i;  k++){
+        str = str + " *";
+    }
+    console.log(str);
+}
 
-// }
-// for(let i = 1; i<5; i++){
-//     str = "";
-//     for(let j = 1; j<=i; j++){
-//         str = str + " ";
-//     }
+for(let i = 1; i<5; i++){
+    str = "";
 
-//     for(let k=1; k<=5-i;  k++){
-//         str = str + " *";
-//     }
-//     console.log(str);
-// }
+    for(let j = 1; j<=i; j++){
+        str = str + " ";
+    }
+
+    for(let k=1; k<=5-i;  k++){
+        str = str + " *";
+    }
+    console.log(str);
+}
 
 
 
