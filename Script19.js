@@ -87,17 +87,17 @@ console.log(result)
 //Q arr.indexOf and findIndex
 
 
- //let res= arr.reverse();
-//  console.log(res)
-//  console.log(arr)
-//  in place
+ let res= arr.reverse();
+ console.log(res)
+ console.log(arr)
+ in place
 
 arr.sort()
 
-// let arr =[1,5,6,7,2,5]
-// let result = arr.join(",");
-// console.log(typeof result)
-// console.log(result)
+let arr =[1,5,6,7,2,5]
+let result = arr.join(",");
+console.log(typeof result)
+console.log(result)
 
 
 // let arr = [1, 2, 3, 4, 5];
