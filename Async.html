@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+  </head>
+  <body>
+    <h1 style="text-align: center;">Async and Await Function</h1>
+    <script>
+      let promise = new Promise((resolve, reject) => {
+        setInterval(() => {
+          console.log("inside the promise..!")
+          resolve("i am done the promise...!")
+        }, 2000);
+    });
+    clearInterval(2)
+
+
+      async function getname() {
+        let result = await promise;
+        console.log(result)
+      }
+
+      console.log(getname());
+    </script>
+  </body>
+</html>
