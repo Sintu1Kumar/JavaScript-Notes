@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+  </head>
+  <body>
+    <h1>Fetch API Data</h1>
+    <script>
+      async function fetchdata() {
+        let response = await fetch(
+          "https://newsdata.io/api/1/news?apikey=pub_378076b3f77c58d86691d45c9c61dddc61553&q=pizza"
+        );
+        let data = await response.json();
+        console.log(data.results[1]);
+      }
+
+      fetchdata();
+    </script>
+  </body>
+</html>
