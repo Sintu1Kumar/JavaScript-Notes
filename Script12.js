@@ -1,11 +1,7 @@
-// let text = document.getElementById('demo');
-// console.log("Welcome to Script 12")
+let text = document.getElementById('demo');
+console.log("Welcome to Script 12")
 
 //* function are also first class citizen
-
-
-
-
 
 function sum(a, b){
     printTheseValues(a, b);

@@ -1,60 +1,60 @@
 console.log("Welcome to Script 14");
 let text = document.getElementById('demo');
 
-// function read(){
-//     console.log("Hello World")
-// };
+function read(){
+    console.log("Hello World")
+};
 
-// console.log(read)
-// read();
+console.log(read)
+read();
 
-// let print = function read(){
-//         console.log("Hello World")
-//     };
+let print = function read(){
+        console.log("Hello World")
+    };
 
 //* arrow function
-// let print = ()=>{
-//     console.log("Wello World");
-//     console.log("Sintu Kumar")
-// }
+let print1 = ()=>{
+    console.log("Wello World");
+    console.log("Sintu Kumar")
+}
 
-// print();
-// console.log(print);
+print1();
+console.log(print);
 
 // if you get gingle instraction then not put the curly bracket;
-// let getwish = name=> console.log("Happy Birthday " + name);
-// getwish("Sintu");
+let getwish = name=> console.log("Happy Birthday " + name);
+getwish("Sintu");
 
-// let add = (a=0, b)=>{
-//     console.log(a+b);
-// }
-// add(0,12);
+let add = (a=0, b)=>{
+    console.log(a+b);
+}
+add(0,12);
 
-// let add = (a, b)=> console.log(a + b);
-// add(12,25);
+let add1 = (a, b)=> console.log(a + b);
+add1(12,25);
 
-// let add = (a, b)=>{
-//     console.log(a + b);
-// }
-// add(10, 23);
+let add2 = (a, b)=>{
+    console.log(a + b);
+}
+add2(10, 23);
 
 //* this keybard
 // arrow function accesses the window object but the normal function accesses the associated object.
-// let obj = {
-//     name: "Sintu",
-//     Phone: "123456",
-//     obj1: {
-//         name:"mohan",
-//         Phone:"54321",
-//         fun: function(){
-//             console.log(this);
-//             console.log(this.name);
-//             console.log(this.Phone);
-//         }
-//     }
-// }
+let obj = {
+    name: "Sintu",
+    Phone: "123456",
+    obj1: {
+        name:"mohan",
+        Phone:"54321",
+        fun: function(){
+            console.log(this);
+            console.log(this.name);
+            console.log(this.Phone);
+        }
+    }
+}
 
-// obj.obj1.fun();
+obj.obj1.fun();
 
 
 let name = "Kumar";

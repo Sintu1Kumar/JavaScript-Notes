@@ -44,3 +44,4 @@ for (let i = 0; i < arr4.length; i++) {
 }
 text.innerHTML = (num1);
 console.log(num1)
+
